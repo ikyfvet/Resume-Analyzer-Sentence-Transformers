@@ -5,7 +5,7 @@ from resume_analyzer import ResumeAnalyzer
 import os
 
 def main():
-    st.set_page_config(page_title="Smart Resume Analyzer", layout="wide")
+    st.set_page_config(page_title="Smart Resume Analyzerll", layout="centered")
     st.title("Smart Resume Analyzer")
 
     job_description = st.text_area("Enter the Job Description", height=200)
